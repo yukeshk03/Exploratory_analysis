@@ -7,10 +7,7 @@ library(SuperLearner)
 library(gridExtra)
 library(magrittr) 
 library(dplyr)    
-#d Features
-dim(d)
-names(d)
-str(d)
+
 #char  to factor
 d[,c(2,3,5,7,8,12,16,18,23)]=lapply(d[,c(2,3,5,7,8,12,16,18,23)],as.factor)
 str(d)
